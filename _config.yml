@@ -97,7 +97,7 @@ comments:
   giscus:
     repo: # <gh-username>/<repo>
     repo_id:
-    category:
+    category: BOJ, Git, Blog
     category_id:
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
