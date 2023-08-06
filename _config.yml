@@ -23,7 +23,7 @@ title: JSDev  # the main title
 tagline: 개발 공부 블로그 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  coding, github
+  coding, github, git
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url:  "https://jason9288.github.io"
