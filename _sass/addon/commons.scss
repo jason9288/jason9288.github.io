@@ -695,7 +695,11 @@ $btn-mb: 0.5rem;
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
-  background: var(--sidebar-bg);
+  // background: var(--sidebar-bg);
+  background: url('/assets/img/bgnd3.jpg');
+  background-size: auto;
+  background-position: center;
+
 
   /* Hide scrollbar for Chrome, Safari and Opera */
   &::-webkit-scrollbar {
@@ -718,8 +722,8 @@ $btn-mb: 0.5rem;
 
   #avatar {
     display: block;
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 6rem;
     overflow: hidden;
     box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
@@ -754,13 +758,13 @@ $btn-mb: 0.5rem;
       @extend %clickable-transition;
       @extend %sidebar-link-hover;
 
-      color: var(--site-title-color);
+      color: rgba(246, 254, 255, 99%);
     }
   }
 
   .site-subtitle {
     font-size: 95%;
-    color: var(--site-subtitle-color);
+    color: rgba(246, 254, 255, 99%);
     margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
@@ -784,31 +788,50 @@ $btn-mb: 0.5rem;
         display: flex;
         align-items: center;
         border-radius: 0.75rem;
-        font-weight: 600;
+        font-weight: 800;
 
         &:hover {
           background-color: var(--sidebar-hover-bg);
+          span {
+            opacity: 1;
+            color: rgba(241, 241, 241, 0.99);
+          }
+          i {
+            font-size: 100%;
+            opacity: 1;
+            margin-right: 1.5rem;
+            color: rgba(241, 241, 241, 0.99);
+          }
         }
 
         i {
-          font-size: 95%;
-          opacity: 0.8;
+          font-size: 100%;
+          opacity: 1;
           margin-right: 1.5rem;
+          color: rgba(222, 222, 222, 0.99);
         }
 
         span {
           font-size: 90%;
           letter-spacing: 0.2px;
+          color: rgba(222, 222, 222, 0.99);
         }
       }
 
       &.active {
         .nav-link {
-          color: var(--sidebar-active-color);
+          color: rgba(255, 255, 255, 0.99);
           background-color: var(--sidebar-hover-bg);
 
           span {
             opacity: 1;
+            color: rgba(255, 255, 255, 0.99);
+          }
+          i {
+            font-size: 100%;
+            opacity: 1;
+            margin-right: 1.5rem;
+            color: rgba(255, 255, 255, 0.99);
           }
         }
       }
@@ -829,7 +852,7 @@ $btn-mb: 0.5rem;
       height: 1.75rem;
       margin-bottom: $btn-mb; // multi line gap
       border-radius: 50%;
-      color: var(--sidebar-btn-color);
+      color: var(sidebar-btn-color);
       background-color: var(--sidebar-btn-bg);
       text-align: center;
       display: flex;

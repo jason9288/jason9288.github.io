@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 
 title: JSDev  # the main title
 
-tagline: 개발 공부 블로그 # it will display as the sub-title
+tagline: 개발 공부 + 취미 블로그 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   coding, github, git
@@ -74,10 +74,10 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+# img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar2.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -95,8 +95,8 @@ comments:
   giscus:
     repo: # <gh-username>/<repo>
     repo_id:
-    category: 
-    category_id:
+    category:
+    category_id: 
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
