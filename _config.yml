@@ -19,12 +19,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: JSDev  # the main title
+title: JSBlog  # the main title
 
 tagline: 개발 공부 + 취미 블로그 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  coding, github, git
+  coding, github, git, 백준, 코딩, 파이썬, c++
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url:  "https://jason9288.github.io"
@@ -77,7 +77,7 @@ theme_mode: # [light|dark]
 # img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/avatar2.png
+avatar: /assets/img/4888513.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -194,3 +194,10 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+jekyll_admin:
+  hidden_links:
+  homepage: ""
+  
+plugins:
+  - jekyll-target-blank
