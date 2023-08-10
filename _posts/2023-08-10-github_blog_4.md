@@ -1,5 +1,5 @@
 ---
-title : Chirpy 테마로 GitHub 블로그 만들기 ⓸
+title : Chirpy 테마로 GitHub 블로그 만들기 ④
 date : '2023-08-10'
 categories : [Blog]
 tags : [chirpy, github, blog, git, gitblog, vscode]
