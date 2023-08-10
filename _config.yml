@@ -19,7 +19,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: JSBlog  # the main title
+title: JSDevBlog  # the main title
 
 tagline: 개발 공부 + 취미 블로그 # it will display as the sub-title
 
