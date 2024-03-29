@@ -4,6 +4,9 @@ layout: compress
 ---
 
 <!doctype html>
+{% if page.use_math %}
+  {% include mathjax_support.html %}
+{% endif %}
 
 {% include origin-type.html %}
 

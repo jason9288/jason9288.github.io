@@ -201,3 +201,10 @@ jekyll_admin:
   
 plugins:
   - jekyll-target-blank
+
+# math equation
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
