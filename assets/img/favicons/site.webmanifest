@@ -1,25 +1,20 @@
----
-layout: compress
----
-
-{% assign favicon_path = "/assets/img/favicons" | relative_url %}
 
 {
-  "name": "{{ site.title }}",
-  "short_name": "{{ site.title }}",
-  "description": "{{ site.description }}",
+  "name": "JSDevBlog",
+  "short_name": "JSDev",
+  "description": "개발 공부 + 취미 블로그",
   "icons": [
     {
-      "src": "{{ favicon_path }}/android-chrome-192x192.png",
+      "src": "/assets/img/favicons/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "{{ favicon_path }}/android-chrome-512x512.png",
-      "sizes": "512x512",
+      "src": "/assets/img/favicons/android-chrome-144x144.png",
+      "sizes": "144x144",
       "type": "image/png"
     }],
-  "start_url": "{{ '/index.html' | relative_url }}",
+  "start_url": "/index.html",
   "theme_color": "#2a1e6b",
   "background_color": "#ffffff",
   "display": "fullscreen"
