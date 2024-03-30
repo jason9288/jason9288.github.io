@@ -29,4 +29,6 @@ end
 
 gem 'jekyll-admin', group: :jekyll_plugins
 
+gem 'rackup'
+
 gem 'jekyll-target-blank'
